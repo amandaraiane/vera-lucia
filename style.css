@@ -349,10 +349,44 @@ body.menu-expanded button path{
     margin-block: 1.6rem;
 }
 
-#benefits .logo-brand img {
-    margin-top: 6.2rem;
-    max-width: 25rem;
+#benefits .cta{
+    width: 100%;
+    margin-top: 20rem;
+    padding-block: 10rem;
+    margin-inline: auto;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    border-radius: 0.6rem;
+    border: 1px solid var(--brand-light);
 }
+
+#benefits .cta h3{
+    font-size: 4rem;
+    color: #fff;
+    line-height: 130%;
+    text-align: left;
+    max-width: 49.7rem;
+}
+
+#benefits .cta .button {
+    padding: 16px 32px;
+    border-radius: 4rem;
+    background-color: #fff;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+#benefits .cta .button:hover {
+    background-color: var(--brand-light);
+}
+
+#benefits .cta .button svg path {
+    fill: var(--primary-color);
+}
+
 /*===================== ABOUT ====================*/
 
 #about{
@@ -390,8 +424,13 @@ body.menu-expanded button path{
     display: flex;
     align-items: center;
     gap: 0.8rem;
+    color: var(--paragraph);
 }
 
+#contact img {
+    max-width: 25rem;
+    margin-top: 8rem;
+}
 /*===================== FOOTER ====================*/
 
 footer{
@@ -407,7 +446,7 @@ footer .logo {
 }
 
 footer .logo svg {
-    width: 23.6rem;
+    width: 18.6rem;
     height: 3.1rem;
 }
 
@@ -467,7 +506,7 @@ footer .social-links{
     }
 
     section{
-        padding-block: 16rem;
+        padding-block: 8rem;
     }
 
     section header h2 {
@@ -707,4 +746,17 @@ footer .social-links{
         margin-bottom: 0;
     }
 
+}
+
+@media (max-width: 991px){
+    #benefits .cta {
+        flex-direction: column;
+        max-width: 100%;
+        margin-top: 10rem;
+    }
+
+    #benefits .cta h3 {
+        font-size: 3rem;
+        text-align: center;
+    }
 }
