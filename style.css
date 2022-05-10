@@ -10,12 +10,12 @@
     --primary-color: hsl(var(--hue), 65%, 48%);
     --headline: hsl(315, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
-    --brand-beige: hsl(39, 100%, 97%);
+    --brand-beige: hsl(304, 100%, 97%);
     --brand-light: hsl(calc(var(--hue) - 15), 100%, 95%);
     --brand-light-2: hsl(calc(var(--hue) + 16), 100%, 98%);
     --bg-light: hsl(180, 14%, 97% );
     --brand-dark: hsl(var(--hue), 72%, 30%);
-
+    
     --nav-height: 7.2rem;
 
     font-size: 62.5%; /* dessa forma 1rem = 10px */
@@ -349,6 +349,10 @@ body.menu-expanded button path{
     margin-block: 1.6rem;
 }
 
+#services .logo-brand img {
+    margin-top: 6.2rem;
+    max-width: 25rem;
+}
 /*===================== ABOUT ====================*/
 
 #about{
