@@ -112,7 +112,7 @@ section .content p{
 }
 
 /*==================== CUSTOM COLOR =====================*/
-#services .cards circle {
+#benefits .cards circle {
     fill: var(--brand-light);
 }
 
@@ -325,19 +325,19 @@ body.menu-expanded button path{
     line-height: 150%;
 }
 
-/*===================== SERVICES ====================*/
+/*===================== benefits ====================*/
 
-#services header h2{
+#benefits header h2{
     margin-bottom: 6rem;
 }
 
-#services .cards{
+#benefits .cards{
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
 }
 
-#services .card{
+#benefits .card{
     padding: 2.4rem;
     text-align: left;
     border: 0.1rem solid var(--brand-light);
@@ -345,11 +345,11 @@ body.menu-expanded button path{
     background-color: #fff;
 }
 
-#services .card h3{
+#benefits .card h3{
     margin-block: 1.6rem;
 }
 
-#services .logo-brand img {
+#benefits .logo-brand img {
     margin-top: 6.2rem;
     max-width: 25rem;
 }
@@ -641,19 +641,19 @@ footer .social-links{
        width: 42rem;
    }
 
-   /*responsive - services*/
-    #services h2 {
+   /*responsive - benefits*/
+    #benefits h2 {
         width: 47rem;
         margin-inline: auto;
     }
 
-    #services .cards {
+    #benefits .cards {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 4rem;
     }
 
-    #services .card {
+    #benefits .card {
         width: 30%;
         flex-grow: 1;
     }

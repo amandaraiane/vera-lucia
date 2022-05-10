@@ -6,7 +6,7 @@ function onScroll(){
     showNavOnScroll()
     showBackToTopButtonOnScroll()
     activateMenuAtCurrentSection(home)
-    activateMenuAtCurrentSection(services)
+    activateMenuAtCurrentSection(benefits)
     activateMenuAtCurrentSection(about)
     activateMenuAtCurrentSection(contact)
 }
@@ -64,9 +64,10 @@ ScrollReveal({
 }).reveal(`#home, 
 #home img, 
 #home .stats, 
-#services,
-#services header,
-#services .card,
+#benefits,
+#benefits header,
+#benefits .card,
+#benefits .logo-brand,
 #about,
 #about header,
 #about .content`);
