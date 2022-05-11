@@ -68,6 +68,7 @@ ScrollReveal({
 #benefits header,
 #benefits .card,
 #benefits .logo-brand,
+#benefits .cta,
 #about,
 #about header,
 #about .content`);
